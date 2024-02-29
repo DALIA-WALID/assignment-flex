@@ -1,0 +1,80 @@
+
+ .first p{
+   width: 100px;
+   height: 100px;
+ background-color: #d4d4d4;
+
+display: flex;
+justify-content: center;
+align-items: center;
+border-width: 5px;
+border-style: solid;
+border-color: orange green green orange ;
+border-radius: 50%;
+}
+.parent{
+    background-color: #d4d4d4;
+    width: 600px;
+    height: 300px;
+ display: grid;
+ grid-template-columns: 180px 180px 180px; 
+ column-gap: 20px;
+ row-gap: 50%;
+ padding-left: 15px;
+padding-top: 15px;
+
+
+}
+.parent div{
+    background-color: red;
+   height: 50px;
+   
+   display: flex;
+   justify-content: center;
+  align-items: center;
+ 
+   
+}
+.parent2{
+    margin-top: 20px;
+    width: 600px;
+    height: 300px;
+    background-color: #000000;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 20px;
+justify-content: center;
+padding: 10px;
+
+}
+.parent2 div{
+ background-color: rgb(9, 144, 190);
+ display: flex;
+ justify-content: center;
+align-items: center;
+
+}
+.parent2 .six{
+height: 150px ;
+
+}
+.parent2 .five{
+    height: 150px ;
+    
+    }
+    .parent2 .three,
+    .parent2 .one
+    {
+  
+   height: fit-content;
+    }
+
+    .parent2 .two,
+    .parent2 .four
+    {
+  
+   height: 150px;
+    }
+    .parent2 .one{
+      margin-top: 70%;
+    }
